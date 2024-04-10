@@ -1,38 +1,43 @@
 <script setup lang="ts">
-import {  RouterView } from 'vue-router';
+import { RouterView } from 'vue-router';
 import TheHeader from '@/components/TheHeader.vue';
 import TheFooter from '@/components/TheFoot.vue';
 
 </script>
 
 <template>
-<div class="appContent">
-  <TheHeader class="header "  />
-    <RouterView  class="router"/>
-   <TheFooter class="footer "  />
-</div>
+  <div class="appContent">
+    <TheHeader class="header " />
+    <RouterView class="router" />
+    <TheFooter class="footer " />
+  </div>
 </template>
 
-<style >
-body{
+<style>
+body {
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  
- 
+
+
 }
 
-.header{
+.header {
   position: fixed;
   width: 100%;
-  z-index: 1320;
-}
-.router{
-  min-height: 105vh;
 
 }
 
+.router {
+  min-height: 140vh;
 
+}
 
+h1 {
+  margin: 0;
+  font-family: "Goblin One", serif;
+  font-weight: 300;
+  font-style: normal;
+}
 </style>
