@@ -6,53 +6,45 @@
 <template>
 
     <main class="mainServicePlus">
-        <h1>SERVICE PLUS</h1>
 
-        <div class="teste">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim mi, efficitur in ullamcorper ac,
-            tempus vitae felis. Curabitur molestie libero id tristique ornare. Aliquam aliquet, elit id bibendum
-            egestas, leo elit cursus mauris, lacinia rutrum nisi risus in justo. Aliquam maximus sem nisl, malesuada
-            dignissim nisi rhoncus at. Nam tincidunt, ligula bibendum rutrum molestie, leo enim convallis est, ac
-            elementum nisl eros eget mauris. Aenean dolor urna, suscipit id sagittis a, bibendum in ligula. Duis lacus
-            velit, porta eu luctus eu, vulputate vel nisi. Vestibulum posuere orci vitae eros commodo tempus. Morbi
-            posuere nec leo a dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor dapibus sem,
-            quis varius mauris viverra vitae. Duis lacus massa, tincidunt eget vehicula in, pharetra id quam. Cras non
-            augue tellus. Aenean ligula quam, viverra at convallis ac, venenatis non ipsum. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Aenean nec sodales ipsum.
-
-            Cras ultricies, tortor eu mollis commodo, diam elit sagittis justo, vitae sodales nisi risus nec metus. Sed
-            fermentum vulputate tempor. Aliquam erat volutpat. Maecenas consectetur velit non maximus hendrerit.
-            Curabitur vehicula ullamcorper dapibus. Duis erat massa, hendrerit non dolor eget, euismod ullamcorper
-            lacus. Etiam eleifend sapien id mi posuere, nec commodo diam ultrices. Nam sit amet lacus sed purus posuere
-            ultricies eu eu risus. Mauris ut iaculis ligula. Curabitur euismod volutpat odio, quis egestas nunc laoreet
-            vitae.
-
-            Sed lacinia ullamcorper neque vitae suscipit. Donec congue pharetra ex non consectetur. Nunc et massa vel
-            augue vestibulum varius. Nulla facilisi. Quisque maximus, lacus a suscipit porttitor, enim quam porta elit,
-            sed aliquam nulla odio ut elit. Quisque ornare pellentesque libero, non dapibus elit semper vel. Cras vitae
-            dapibus erat, ut dictum ipsum. Sed auctor leo ante, id consectetur felis volutpat sed. Aenean ut arcu
-            bibendum, sollicitudin felis sit amet, luctus sem. Etiam auctor, magna eu ullamcorper tempus, felis mauris
-            consectetur magna, molestie cursus nisl est eget justo. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Vivamus laoreet erat in pharetra ultricies. Ut et lectus vel nunc laoreet aliquam quis sed nunc.
-
-            Vivamus nisl arcu, condimentum at sollicitudin vel, accumsan a velit. Curabitur id varius odio. Fusce
-            fermentum metus et augue commodo porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Nulla malesuada quam ut est lobortis dapibus. In hac habitasse platea dictumst.
-            Vestibulum pharetra molestie lectus ac laoreet. Aliquam urna diam, aliquet sit amet semper eu, elementum et
-            orci.
-
-            Suspendisse aliquam, dui non pretium consectetur, ligula sapien volutpat elit, in ullamcorper augue nisl
-            quis lacus. Proin id convallis lorem. Maecenas eleifend elit vel tortor dictum scelerisque. Maecenas at
-            molestie massa. Sed sit amet placerat felis, nec malesuada orci. Fusce commodo elementum leo, congue egestas
-            lectus aliquam at. Vivamus finibus imperdiet ipsum et eleifend. Curabitur pharetra vestibulum diam vel
-            facilisis. Nulla vulputate metus id ipsum tempus, sed vehicula dui interdum. Aenean tincidunt porta elit et
-            volutpat. Mauris dapibus id dolor a laoreet. Etiam volutpat ante vel lorem fringilla laoreet.
-
-            Suspendisse non fringilla enim, ut ultrices nunc. Quisque nec nunc non lectus ultrices efficitur luctus quis
-            enim. Pellentesque odio sapien, laoreet aliquam nunc a, pellentesque cursus lectus. Duis orci nulla,
-            faucibus vel mattis a, congue in urna. Vivamus id orci fringilla, imperdiet neque facilisis, mollis justo.
-            Vestibulum convallis posuere leo in tristique. Maecenas sed est enim. Morbi vitae nunc non nulla mollis
-            mollis sit amet at ex. Suspendisse potenti. Integer consectetur nec mauris non iaculis.
+        <div class="ServicesPlusContent">
+            <div class="haut barresp">
+                <div class="title">
+                    <h1 class="offre"> + DE SERVICES</h1>
+                </div>
+                <div class="ServicesPlus1 offre">
+                    <div class="CreaLogo creaItem">
+                        <img src="../assets/IMAGES/FLECHESX3.png" alt="LOGO DE FLECHE" style="width: 100px;">
+                        <h2>Création de Logo</h2>
+                    </div>
+                    <div class="CreaId creaItem">
+                        <img src="../assets/IMAGES/FLECHESX3.png" alt="LOGO DE FLECHE" style="width: 100px;">
+                        <h2>Création d'une Identité Visuel</h2>
+                    </div>
+                    <img src="../assets/IMAGES/FLECHE BAS.jpg" alt="" class="arrow2 arrow">
+                    <img src="../assets/IMAGES/FLECHE BAS.jpg" alt="" class="arrow3 arrow">
+                </div>
+            </div>
+            <div class="bas barresp">
+                <div class="ServicesPlus2 offre">
+                    <div class="CreaMaq creaItem">
+                        <img src="../assets/IMAGES/FLECHESX3.png" alt="LOGO DE FLECHE" style="width: 100px;">
+                        <h2>Création de Maquette de site web</h2>
+                    </div>
+                    <div class="CreaCopy creaItem">
+                        <img src="../assets/IMAGES/FLECHESX3.png" alt="LOGO DE FLECHE" style="width: 100px;">
+                        <h2>Copywriting</h2>
+     
+                    </div>
+                    <img src="../assets/IMAGES/FLCH BAS DRTE.jpg" alt="" class="arrow1">
+                </div>
+                <div class="ServicesPlusTxt offre">
+                    <p>
+                        L'ensemble de nos services vise à respecter les règles d'accessibilité pour une meilleure
+                        intégration des éléments das votre stratégie SEO
+                    </p>
+                </div>
+            </div>
         </div>
 
     </main>
@@ -60,11 +52,86 @@
 </template>
 
 <style scoped>
-.mainServicePlus {
+.haut {
+    margin-top: 110px;
+}
+
+.barresp {
     display: flex;
-    flex-direction: column;
+}
+
+.ServicesPlusTxt {
+    background-color: #9DB6CC;
+    /* background-color: #2F435A; */
+    width: 100%;
+    margin-right: 25px;
+    padding: 37px;
+    font-family: "Ysabeau Infant", sans-serif; 
+    text-align: center;
+    display: flex;
     align-items: center;
+}
+
+.ServicesPlus1 {
+
+    width: 100%;
+
+}
+
+.offre {
+    height: 320px;
+}
+
+.ServicesPlus2 {
+
+    width: 100%;
+}
+
+.title {
+
+    width: 100%;
+
+}
+
+.creaItem {
+    display: flex;
     justify-content: center;
-    min-height: 100vh;
+    align-items: center;
+}
+
+p {
+    color: #2F435A;
+    font-size: 33px;
+}
+
+h1 {
+    /* color: #9DB6CC; */
+    color: #2F435A;
+    font-size: 48px;
+    margin-left: 122px;
+    margin-top: 39px;
+    width: 40%;
+    font-weight: normal;
+}
+h2{
+    color: #2F435A;
+    font-size: 33px;
+}
+.arrow1{
+    width: 180px;
+    position: absolute;
+    left: 550px; 
+}
+.arrow2{
+    width: 180px;
+    position: relative;
+    right: 90px;
+    bottom: 50px; 
+}
+.arrow3{
+    width: 180px;
+    position: relative;
+    right: 90px;
+    bottom: 50px; 
 }
 </style>

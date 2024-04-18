@@ -117,11 +117,12 @@ h2{
     width: 250px;
 }
 
-#contact {
-    background-color: red;
+#services,
+#servicePlus {
+    width: 100%;
 }
 
-#metier {
+/* #metier {
     margin-bottom: 25px;
-}
+} */
 </style>
